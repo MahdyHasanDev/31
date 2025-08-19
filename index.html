@@ -1,37 +1,44 @@
 <!DOCTYPE html>
 <html lang="en" class="dark">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="src/output.css">
-</head>
-<body class="bg-gray-900 text-white">
-    <div class="flex justify-center ">
-        <div class="mockup-phone border-primary">
-  <div class="mockup-phone-camera"></div>
-  <div class="mockup-phone-display text-white grid place-content-center">
-<!-- content  -->
- <div class="hero bg-base-200 ">
-  <div class="hero-content flex-col lg:flex-row-reverse">
-    <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
-      <div class="card-body">
-        <fieldset class="fieldset">
-          <label class="label">Enter Your Number</label>
-          <input type="email" class="input" placeholder="Enter Your Number" />
-        
-          <label class="label">4 Digit Pin</label>
-          <input type="email" class="input" placeholder="Enter 4 Digit Pin" />
-        
-          <button class="btn btn-neutral mt-4">Login</button>
-        </fieldset>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mobile</title>
+    <link rel="stylesheet" href="src/output.css" />
+  </head>
+  <body class="bg-gray-300">
+    <div class="flex justify-center py-[100px]">
+      <div class="mockup-phone border-primary">
+        <div class="mockup-phone-camera"></div>
+        <div class="mockup-phone-display text-white grid place-content-center">
+          <!-- content daisy ui HERO -->
+          <div class="hero bg-gray-200 text-black rounded rounded-2xl">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+              <div class="card bg-gray-100 w-full shadow-2xl">
+                <div class="card-body">
+                  <fieldset class="fieldset">
+                    <label class="label text-black">Enter Your Number</label>
+                    <input id="loginNumber"
+                      type="email"
+                      class="input text-white"
+                      placeholder="Enter Your Number" />
+
+                    <label class="label text-black">4 Digit Pin</label>
+                    <input id="loginPin"
+                      type="email"
+                      class="input text-white"
+                      placeholder="Enter 4 Digit Pin" />
+
+                    <button class="btn btn-soft btn-success mt-4" id="loginBtn">Login</button>
+                  </fieldset>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- content  daisy ui HERO-->
+        </div>
       </div>
     </div>
-  </div>
-</div>
-<!-- content  -->
-  </div>
-</div>
-</div>
-</body>
+    <script src="js/script.js"></script>
+  </body>
 </html>
